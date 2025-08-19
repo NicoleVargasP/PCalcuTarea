@@ -20,5 +20,5 @@ form.addEventListener("submit", (event) => {
     resultado = multiplicar(firstNumber, secondNumber);
   }
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + resultado + "</p>"; 
 });
